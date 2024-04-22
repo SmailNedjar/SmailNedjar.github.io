@@ -160,12 +160,6 @@ ul {
 }
 
 
-.reseaux .facebook_icone a{
-    font-size: 19px;
-    vertical-align: middle;
-}
-
-
 .reseaux .instagram_icone{
     list-style-image: url('../images/instagram.svg');
     font-size: 55px;
@@ -173,20 +167,14 @@ ul {
     
 }
 
-.reseaux .github_icone a {
-    font-size: 19px;
-    vertical-align: middle;
-}
+
 .reseaux .github_icone {
     list-style-image: url('../images/github.svg');
     font-size: 55px;
     height: 40px;
 }
 
-.reseaux .instagram_icone a{
-    font-size: 19px;
-    vertical-align: middle;
-}
+
 .reseaux .Linkedin_icone{
     list-style-image: url('../images/linkedin.svg');
     font-size: 55px;
@@ -194,10 +182,7 @@ ul {
     
 }
 
-.reseaux .Linkedin_icone a{
-    font-size: 19px;
-    vertical-align: middle;
-}
+
 
 .reseaux .twitter_icone{
     list-style-image: url('../images/twitter.svg');
@@ -205,10 +190,24 @@ ul {
     height: 40px;
     
 }
-.reseaux .twitter_icone a{
+
+
+
+.reseaux  a{
     font-size: 19px;
     vertical-align: middle;
 
+}
+
+.reseaux .cv_icone {
+    list-style-image: url('../images/Nedjar_smail_cv_dev_web.svg');
+    font-size: 55px;
+    height: 40px;
+}
+
+.reseaux .cv_icone a{
+    font-size: 19px;
+    vertical-align: middle;
 }
 table {
     width: 100%;
