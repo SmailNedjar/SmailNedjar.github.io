@@ -198,13 +198,6 @@ ul {
     vertical-align: middle;
 
 }
-
-.reseaux .cv_icone {
-    list-style-image: url('../images/Nedjar_smail_cv_dev_web.svg');
-    font-size: 55px;
-    height: 40px;
-}
-
 table {
     width: 100%;
     text-align: start;
