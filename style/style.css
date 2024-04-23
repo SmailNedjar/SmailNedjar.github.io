@@ -3,6 +3,20 @@
     font-size: 12px;
   
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .main_container {
+        width: 500;
+        height: 705px;
+       
+        
+    }
+    
+    
+}
+
 a {
     text-decoration: none;
     color: #12301b;
