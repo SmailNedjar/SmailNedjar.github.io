@@ -154,7 +154,7 @@ ul {
     margin: 2px;
 }
 .reseaux .facebook_icone{
-    list-style-image: url('images/facebook.svg');
+    list-style-image: url('../images/facebook.svg');
     font-size: 55px;
     height: 40px;
     
@@ -165,7 +165,7 @@ ul {
 
 
 .reseaux .instagram_icone{
-    list-style-image: url('images/instagram.svg');
+    list-style-image: url('../images/instagram.svg');
     font-size: 55px;
     height: 40px;
     
@@ -173,14 +173,14 @@ ul {
 
 
 .reseaux .github_icone {
-    list-style-image: url('images/github.svg');
+    list-style-image: url('../images/github.svg');
     font-size: 55px;
     height: 40px;
 }
 
 
 .reseaux .Linkedin_icone{
-    list-style-image: url('images/linkedin.svg');
+    list-style-image: url('../images/linkedin.svg');
     font-size: 55px;
     height: 40px;
     
@@ -188,7 +188,7 @@ ul {
 
 
 .reseaux .twitter_icone{
-    list-style-image: url('images/twitter.svg');
+    list-style-image: url('../images/twitter.svg');
     font-size: 55px;
     height: 40px;
     
@@ -199,7 +199,7 @@ ul {
 
 }
 .reseaux .cv_icone {
-    list-style-image: url('images/cv_dev_web.svg');
+    list-style-image: url('../images/cv_dev_web.svg');
     font-size: 55px;
     height: 40px;
     
@@ -238,7 +238,7 @@ tr {
 }
 .footer { 
     grid-row: 33/33;
-    background-image: url('images/image_dev_footer2.png');
+    background-image: url('../images/image_dev_footer2.png');
     text-align: center;
     line-height: 40px;
 
