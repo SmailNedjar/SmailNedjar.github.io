@@ -3,7 +3,9 @@
     font-size: 12px;
   
 }
-
+body {
+    max-width: 1300px;
+}
 
 a {
     text-decoration: none;
