@@ -25,7 +25,7 @@ h2 {
     display: grid;
     grid-template-rows: repeat(33,1fr);
     box-shadow: 0 2px 30px rgba(0,0,0,0.5);
-    margin: 100px 200px;
+    margin: 100px auto 200px auto ;
     width: 1000px;
     height: 1410px;
    
@@ -60,12 +60,15 @@ h2 {
 .texte_header hr{
     width: 150px;
     background-color: #e5e5e5;
+    height: 1px;
+    
     
 }
 
-.texte_header hr {
-    height: 1px;
+hr {
+    margin: 0;
 }
+
 .texte_header_sous_titre {
     width: 600px;
     display:flex ;
@@ -151,7 +154,7 @@ ul {
     margin: 2px;
 }
 .reseaux .facebook_icone{
-    list-style-image: url('../images/facebook.svg');
+    list-style-image: url('facebook.svg');
     font-size: 55px;
     height: 40px;
     
@@ -160,8 +163,9 @@ ul {
 }
 
 
+
 .reseaux .instagram_icone{
-    list-style-image: url('../images/instagram.svg');
+    list-style-image: url('instagram.svg');
     font-size: 55px;
     height: 40px;
     
@@ -169,65 +173,62 @@ ul {
 
 
 .reseaux .github_icone {
-    list-style-image: url('../images/github.svg');
+    list-style-image: url('github.svg');
     font-size: 55px;
     height: 40px;
 }
 
 
 .reseaux .Linkedin_icone{
-    list-style-image: url('../images/linkedin.svg');
+    list-style-image: url('linkedin.svg');
     font-size: 55px;
     height: 40px;
     
 }
-
 
 
 .reseaux .twitter_icone{
-    list-style-image: url('../images/twitter.svg');
+    list-style-image: url('twitter.svg');
     font-size: 55px;
     height: 40px;
     
 }
-
-
-
-.reseaux  a{
+.reseaux a{
     font-size: 19px;
     vertical-align: middle;
 
 }
-
 .reseaux .cv_icone {
-    list-style-image: url('../images/Nedjar_smail_cv_dev_web.svg');
+    list-style-image: url('cv_dev_web.svg');
     font-size: 55px;
     height: 40px;
-    margin-left: -2.8px;
+    
 }
+
 
 table {
     width: 100%;
     text-align: start;
     color: #2a5223;
+    border-bottom: 1px solid #12301b;
+    border-top: 1px solid #12301b;  
 }
 
 table th{
     text-align: start;
     color:#12301b;
-    border-bottom: #12301b;
     width: 40%;
     
 }
 
+tr {
+    border-bottom: 1px solid #12301b;
+}
 .personnel th,td {
     padding: 2px 2px;
 
 }
-hr {
-    margin: 0;
-    width: 100%;
-}
+
 
 .reseaux {
     grid-row: 10/12;
@@ -237,7 +238,7 @@ hr {
 }
 .footer { 
     grid-row: 33/33;
-    background-image: url('../images/image_dev_footer2.png');
+    background-image: url('image_dev_footer2.png');
     text-align: center;
     line-height: 40px;
 
