@@ -65,7 +65,7 @@ function adjustScale() {
         scale = 0.3; // Réduire l'échelle pour les petits écrans
     } else if (width < 728) {
         scale = 0.4; // Échelle normale pour les écrans moyens
-    } else if (width <1000){
+    } else if (width <1124){
         scale = 0.7; // Agrandir pour les grands écrans
     }
 
