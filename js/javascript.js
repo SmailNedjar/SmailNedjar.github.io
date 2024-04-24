@@ -54,3 +54,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+function adjustScale() {
+    const element = document.querySelector('.main_container');
+    const width = window.innerWidth;
+    console.log(width);
+    
+    // Définir l'échelle en fonction de la largeur de la fenêtre
+    let scale;
+    if (width < 480) {
+        scale = 0.3; // Réduire l'échelle pour les petits écrans
+    } else if (width < 728) {
+        scale = 0.4; // Échelle normale pour les écrans moyens
+    } else if (width <1000){
+        scale = 0.7; // Agrandir pour les grands écrans
+    }
+
+    element.style.transform = `scale(${scale})`;
+    element.style.margin = 0;
+}
+
+// Écoutez l'événement de redimensionnement et le chargement initial
+window.addEventListener('resize', adjustScale);
+window.addEventListener('load', adjustScale);
