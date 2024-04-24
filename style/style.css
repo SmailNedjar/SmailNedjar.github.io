@@ -27,7 +27,7 @@ h2 {
     display: grid;
     grid-template-rows: repeat(33,1fr);
     box-shadow: 0 2px 30px rgba(0,0,0,0.5);
-    margin: 0px auto 200px auto ;
+    margin: 0 auto 200px auto ;
     width: 1000px;
     height: 1410px;
 }
